@@ -11,9 +11,11 @@
   * [402-1_Spring MVC와 Thymeleaf.pdf](40/402-1_Spring MVC와 Thymeleaf.pdf): DispatcherServlet, 요청 바인딩, PRG 패턴, CRUD 라우팅, 폼 바인딩
   * [402-2_입력값 검증과 Bean Validation.pdf](40/402-2_입력값 검증과 Bean Validation.pdf): Bean Validation, @Valid, BindingResult, 오류 메시지 바인딩
   * [402-3_레이아웃과 프래그먼트.pdf](40/402-3_레이아웃과 프래그먼트.pdf): th:fragment, th:replace, th:insert, Layout Dialect
+  * [403_서버사이드 렌더링 예외 처리.pdf](40/403_서버사이드 렌더링 예외 처리.pdf): BasicErrorController, 커스텀 오류 페이지, @ExceptionHandler, @ControllerAdvice
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
+  * [04_server_exception](https://github.com/aibe-7th/04_server_exception)
 
 ## 🚀 시작하기
 
@@ -21,5 +23,6 @@
    ```bash
    git clone https://github.com/aibe-7th/04_server-start.git
    git clone https://github.com/aibe-7th/04_server_thymeleaf.git
+   git clone https://github.com/aibe-7th/04_server_exception.git
    ```
 2. 교안 자료([40](40))를 기반으로 환경 설정, 외부 설정, Thymeleaf 실습 진행
