@@ -14,11 +14,15 @@
   * [403_서버사이드 렌더링 예외 처리.pdf](40/403_서버사이드%20렌더링%20예외%20처리.pdf): BasicErrorController, 커스텀 오류 페이지, @ExceptionHandler, @ControllerAdvice
   * [404-1_파일 다루기.pdf](40/404-1_파일%20다루기.pdf): MultipartFile, 파일 업로드/저장/조회, FileStore 추상화
   * [404-2_객체 스토리지로 파일 저장하기.pdf](40/404-2_객체%20스토리지로%20파일%20저장하기.pdf): Supabase S3 호환 스토리지, Spring Cloud AWS, presigned URL
+  * [405-1_PDF 문서로 RAG 구현하기.pdf](40/405-1_PDF%20문서로%20RAG%20구현하기.pdf): PDF 파싱 및 ETL 파이프라인, pgvector 기반 Vector Store, RAG 답변 생성
+  * [405-2_이미지로 확장하는 멀티모달 RAG.pdf](40/405-2_이미지로%20확장하는%20멀티모달%20RAG.pdf): 멀티모달 캡셔닝/OCR, PgVectorStore 이중 구조, 크로스모달 검색
+  * [405-3_프롬프트에서 이미지로.pdf](40/405-3_프롬프트에서%20이미지로.pdf): 이미지 생성(확산 모델), Cloudflare Workers AI 연동, RestClient 기반 커스텀 ImageModel 구현
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
   * [04_server_exception](https://github.com/aibe-7th/04_server_exception)
   * [04_server-storage](https://github.com/aibe-7th/04_server-storage)
+  * [04_server-ai-with-files](https://github.com/aibe-7th/04_server-ai-with-files)
 
 ## 🚀 시작하기
 
@@ -28,5 +32,6 @@
    git clone https://github.com/aibe-7th/04_server_thymeleaf.git
    git clone https://github.com/aibe-7th/04_server_exception.git
    git clone https://github.com/aibe-7th/04_server-storage.git
+   git clone https://github.com/aibe-7th/04_server-ai-with-files.git
    ```
-2. 교안 자료([40](40))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지 실습 진행
+2. 교안 자료([40](40))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성 실습 진행
