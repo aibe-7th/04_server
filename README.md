@@ -29,6 +29,7 @@
   * [04_server-ai-with-files](https://github.com/aibe-7th/04_server-ai-with-files)
   * [04_server-image-gen](https://github.com/aibe-7th/04_server-image-gen)
   * [04_server-sec](https://github.com/aibe-7th/04_server-sec)
+  * [04_server_sec2](https://github.com/aibe-7th/04_server_sec2)
 
 ## 🚀 시작하기
 
@@ -41,5 +42,6 @@
    git clone https://github.com/aibe-7th/04_server-ai-with-files.git
    git clone https://github.com/aibe-7th/04_server-image-gen.git
    git clone https://github.com/aibe-7th/04_server-sec.git
+   git clone https://github.com/aibe-7th/04_server_sec2.git
    ```
 2. 교안 자료([40](40))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가 실습 진행
