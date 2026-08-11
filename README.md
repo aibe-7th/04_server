@@ -4,7 +4,7 @@
 
 ## 📂 구성 및 학습 자료
 
-* **[40](40)**: 4주차 강의 교안 (PDF)
+* **[40](40)**: 4주차 강의 교안 (PDF - Part 1)
   * [401-1_Spring Boot 4와 Gradle.pdf](40/401-1_Spring%20Boot%204와%20Gradle.pdf): Spring Boot 스택, 내장 서버, Gradle 설정
   * [401-2_application-yml과 외부 설정.pdf](40/401-2_application-yml과%20외부%20설정.pdf): 외부화 설정, 우선순위, 프로파일, 값 주입, `.env` 설정
   * [401-3_Thymeleaf 기초.pdf](40/401-3_Thymeleaf%20기초.pdf): SSR 개념, Thymeleaf 표현식, XSS 방지, 조건 및 반복문
@@ -17,10 +17,11 @@
   * [405-1_PDF 문서로 RAG 구현하기.pdf](40/405-1_PDF%20문서로%20RAG%20구현하기.pdf): PDF 파싱 및 ETL 파이프라인, pgvector 기반 Vector Store, RAG 답변 생성
   * [405-2_이미지로 확장하는 멀티모달 RAG.pdf](40/405-2_이미지로%20확장하는%20멀티모달%20RAG.pdf): 멀티모달 캡셔닝/OCR, PgVectorStore 이중 구조, 크로스모달 검색
   * [405-3_프롬프트에서 이미지로.pdf](40/405-3_프롬프트에서%20이미지로.pdf): 이미지 생성(확산 모델), Cloudflare Workers AI 연동, RestClient 기반 커스텀 ImageModel 구현
-  * [411_Spring Security로 인증과 인가 적용하기.pdf](40/411_Spring%20Security로%20인증과%20인가%20적용하기.pdf): SecurityFilterChain, 인메모리 계정, 폼 로그인/세션, CSRF 방어, 예외 처리
-  * [412-1_회원 관리와 DB 기반 인증 구현하기.pdf](40/412-1_회원%20관리와%20DB%20기반%20인증%20구현하기.pdf): JPA 회원 엔티티, PasswordEncoder, UserDetailsService 기반 DB 인증, 회원가입
-  * [412-2_역할 기반 인가와 작성자 권한 검증.pdf](40/412-2_역할%20기반%20인가와%20작성자%20권한%20검증.pdf): @AuthenticationPrincipal, RBAC 인가 정책, 작성자 권한 검증 및 화면/서버 분기
-  * [413_OAuth2 소셜 로그인 연동.pdf](40/413_OAuth2%20소셜%20로그인%20연동.pdf): OAuth2 Authorization Code Grant, oauth2Login, OAuth2UserService, 소셜 로그인 통합
+* **[41](41)**: 4주차 강의 교안 (PDF - Part 2)
+  * [411_Spring Security로 인증과 인가 적용하기.pdf](41/411_Spring%20Security로%20인증과%20인가%20적용하기.pdf): SecurityFilterChain, 인메모리 계정, 폼 로그인/세션, CSRF 방어, 예외 처리
+  * [412-1_회원 관리와 DB 기반 인증 구현하기.pdf](41/412-1_회원%20관리와%20DB%20기반%20인증%20구현하기.pdf): JPA 회원 엔티티, PasswordEncoder, UserDetailsService 기반 DB 인증, 회원가입
+  * [412-2_역할 기반 인가와 작성자 권한 검증.pdf](41/412-2_역할%20기반%20인가와%20작성자%20권한%20검증.pdf): @AuthenticationPrincipal, RBAC 인가 정책, 작성자 권한 검증 및 화면/서버 분기
+  * [413_OAuth2 소셜 로그인 연동.pdf](41/413_OAuth2%20소셜%20로그인%20연동.pdf): OAuth2 Authorization Code Grant, oauth2Login, OAuth2UserService, 소셜 로그인 통합
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
@@ -44,4 +45,4 @@
    git clone https://github.com/aibe-7th/04_server-sec.git
    git clone https://github.com/aibe-7th/04_server_sec2.git
    ```
-2. 교안 자료([40](40))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가 실습 진행
+2. 교안 자료([40](40), [41](41))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가 실습 진행
