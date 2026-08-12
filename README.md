@@ -22,6 +22,9 @@
   * [412-1_회원 관리와 DB 기반 인증 구현하기.pdf](41/412-1_회원%20관리와%20DB%20기반%20인증%20구현하기.pdf): JPA 회원 엔티티, PasswordEncoder, UserDetailsService 기반 DB 인증, 회원가입
   * [412-2_역할 기반 인가와 작성자 권한 검증.pdf](41/412-2_역할%20기반%20인가와%20작성자%20권한%20검증.pdf): @AuthenticationPrincipal, RBAC 인가 정책, 작성자 권한 검증 및 화면/서버 분기
   * [413_OAuth2 소셜 로그인 연동.pdf](41/413_OAuth2%20소셜%20로그인%20연동.pdf): OAuth2 Authorization Code Grant, oauth2Login, OAuth2UserService, 소셜 로그인 통합
+* **[42](42)**: 4주차 강의 교안 (PDF - Part 3)
+  * [421-1_REST API 기초.pdf](42/421-1_REST%20API%20기초.pdf): @RestController, ResponseEntity, DTO 바인딩 및 RESTful API 구현
+  * [421-2_REST API 예외 처리와 문서화.pdf](42/421-2_REST%20API%20예외%20처리와%20문서화.pdf): @RestControllerAdvice, ProblemDetail, Springdoc OpenAPI/Swagger 기반 API 문서화
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
@@ -31,6 +34,7 @@
   * [04_server-image-gen](https://github.com/aibe-7th/04_server-image-gen)
   * [04_server-sec](https://github.com/aibe-7th/04_server-sec)
   * [04_server_sec2](https://github.com/aibe-7th/04_server_sec2)
+  * [04_server-rest](https://github.com/aibe-7th/04_server-rest)
 
 ## 🚀 시작하기
 
@@ -44,5 +48,6 @@
    git clone https://github.com/aibe-7th/04_server-image-gen.git
    git clone https://github.com/aibe-7th/04_server-sec.git
    git clone https://github.com/aibe-7th/04_server_sec2.git
+   git clone https://github.com/aibe-7th/04_server-rest.git
    ```
-2. 교안 자료([40](40), [41](41))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가 실습 진행
+2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화 실습 진행
