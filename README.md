@@ -27,6 +27,8 @@
   * [421-2_REST API 예외 처리와 문서화.pdf](42/421-2_REST%20API%20예외%20처리와%20문서화.pdf): @RestControllerAdvice, ProblemDetail, Springdoc OpenAPI/Swagger 기반 API 문서화
   * [422_CSR 연동과 CORS.pdf](42/422_CSR%20연동과%20CORS.pdf): SSR/CSR 구조 차이, SOP/CORS 동작 원리, Preflight, WebMvcConfigurer 기반 Spring Boot CORS 허용 설정 및 fetch 연동/트러블슈팅
   * [423_Spring Security와 REST API 인증·인가.pdf](42/423_Spring%20Security와%20REST%20API%20인증·인가.pdf): SecurityFilterChain 기반 선언형 보안, HTTP Basic 무상태 인증, Swagger UI 연동, CSRF 비활성화 및 CORS 처리, AuthenticationEntryPoint/AccessDeniedHandler를 통한 ProblemDetail 401·403 예외 응답 통일
+  * [424-1_JWT 기반 무상태 인증.pdf](42/424-1_JWT%20기반%20무상태%20인증.pdf): 세션 인증의 한계 및 JWT 무상태 구조, JJWT 기반 토큰 발급·검증 유틸 구현, OncePerRequestFilter 기반 JwtAuthenticationFilter 체인 결합, ProblemDetail 401 및 Swagger Bearer 인증 연동
+  * [424-2_JWT 토큰 저장 전략과 XSS 방어.pdf](42/424-2_JWT%20토큰%20저장%20전략과%20XSS%20방어.pdf): 토큰 저장 위치(메모리/Web Storage/HttpOnly 쿠키) 비교, XSS 공격 원리 및 다층 방어(textContent, 이스케이프, DOMPurify, CSP), authorizedFetch 공통 클라이언트 함수와 401·403 상태 코드 분기 처리
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
@@ -54,4 +56,4 @@
    git clone https://github.com/aibe-7th/04_server-rest.git
    git clone https://github.com/aibe-7th/04_server-cors.git
    ```
-2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화, CORS 설정 및 REST API 보안 실습 진행
+2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화, CORS 설정, JWT 무상태 인증 및 클라이언트 보안 연동 실습 진행
