@@ -25,6 +25,8 @@
 * **[42](42)**: 4주차 강의 교안 (PDF - Part 3)
   * [421-1_REST API 기초.pdf](42/421-1_REST%20API%20기초.pdf): @RestController, ResponseEntity, DTO 바인딩 및 RESTful API 구현
   * [421-2_REST API 예외 처리와 문서화.pdf](42/421-2_REST%20API%20예외%20처리와%20문서화.pdf): @RestControllerAdvice, ProblemDetail, Springdoc OpenAPI/Swagger 기반 API 문서화
+  * [422_CSR 연동과 CORS.pdf](42/422_CSR%20연동과%20CORS.pdf): SSR/CSR 구조 차이, SOP/CORS 동작 원리, Preflight, WebMvcConfigurer 기반 Spring Boot CORS 허용 설정 및 fetch 연동/트러블슈팅
+  * [423_Spring Security와 REST API 인증·인가.pdf](42/423_Spring%20Security와%20REST%20API%20인증·인가.pdf): SecurityFilterChain 기반 선언형 보안, HTTP Basic 무상태 인증, Swagger UI 연동, CSRF 비활성화 및 CORS 처리, AuthenticationEntryPoint/AccessDeniedHandler를 통한 ProblemDetail 401·403 예외 응답 통일
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
@@ -35,6 +37,7 @@
   * [04_server-sec](https://github.com/aibe-7th/04_server-sec)
   * [04_server_sec2](https://github.com/aibe-7th/04_server_sec2)
   * [04_server-rest](https://github.com/aibe-7th/04_server-rest)
+  * [04_server-cors](https://github.com/aibe-7th/04_server-cors)
 
 ## 🚀 시작하기
 
@@ -49,5 +52,6 @@
    git clone https://github.com/aibe-7th/04_server-sec.git
    git clone https://github.com/aibe-7th/04_server_sec2.git
    git clone https://github.com/aibe-7th/04_server-rest.git
+   git clone https://github.com/aibe-7th/04_server-cors.git
    ```
-2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화 실습 진행
+2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화, CORS 설정 및 REST API 보안 실습 진행
