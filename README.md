@@ -40,6 +40,7 @@
   * [04_server_sec2](https://github.com/aibe-7th/04_server_sec2)
   * [04_server-rest](https://github.com/aibe-7th/04_server-rest)
   * [04_server-cors](https://github.com/aibe-7th/04_server-cors)
+  * [04_server-sec-rest](https://github.com/aibe-7th/04_server-sec-rest)
 
 ## 🚀 시작하기
 
@@ -55,5 +56,6 @@
    git clone https://github.com/aibe-7th/04_server_sec2.git
    git clone https://github.com/aibe-7th/04_server-rest.git
    git clone https://github.com/aibe-7th/04_server-cors.git
+   git clone https://github.com/aibe-7th/04_server-sec-rest.git
    ```
 2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화, CORS 설정, JWT 무상태 인증 및 클라이언트 보안 연동 실습 진행
