@@ -29,6 +29,8 @@
   * [423_Spring Security와 REST API 인증·인가.pdf](42/423_Spring%20Security와%20REST%20API%20인증·인가.pdf): SecurityFilterChain 기반 선언형 보안, HTTP Basic 무상태 인증, Swagger UI 연동, CSRF 비활성화 및 CORS 처리, AuthenticationEntryPoint/AccessDeniedHandler를 통한 ProblemDetail 401·403 예외 응답 통일
   * [424-1_JWT 기반 무상태 인증.pdf](42/424-1_JWT%20기반%20무상태%20인증.pdf): 세션 인증의 한계 및 JWT 무상태 구조, JJWT 기반 토큰 발급·검증 유틸 구현, OncePerRequestFilter 기반 JwtAuthenticationFilter 체인 결합, ProblemDetail 401 및 Swagger Bearer 인증 연동
   * [424-2_JWT 토큰 저장 전략과 XSS 방어.pdf](42/424-2_JWT%20토큰%20저장%20전략과%20XSS%20방어.pdf): 토큰 저장 위치(메모리/Web Storage/HttpOnly 쿠키) 비교, XSS 공격 원리 및 다층 방어(textContent, 이스케이프, DOMPurify, CSP), authorizedFetch 공통 클라이언트 함수와 401·403 상태 코드 분기 처리
+  * [425-1_Refresh Token과 Redis 기반 토큰 저장소.pdf](42/425-1_Refresh%20Token과%20Redis%20기반%20토큰%20저장소.pdf): 무상태 JWT 한계(로그아웃·탈취), Access/Refresh 토큰 분리, Redis(Valkey) 연동 및 @RedisHash 기반 저장소 설계, jti·type 클레임 발급 및 HttpOnly 쿠키 인증 구조
+  * [425-2_토큰 회전과 자동 재발급.pdf](42/425-2_토큰%20회전과%20자동%20재발급.pdf): Refresh Token Rotation(RTR) 및 재사용 감지, 토큰 재발급 API 구현, Redis 블랙리스트 기반 로그아웃 토큰 즉시 차단, 클라이언트 401 감지 및 자동 재발급
 * **실습 프로젝트**:
   * [04_server-start](https://github.com/aibe-7th/04_server-start)
   * [04_server_thymeleaf](https://github.com/aibe-7th/04_server_thymeleaf)
@@ -41,6 +43,7 @@
   * [04_server-rest](https://github.com/aibe-7th/04_server-rest)
   * [04_server-cors](https://github.com/aibe-7th/04_server-cors)
   * [04_server-sec-rest](https://github.com/aibe-7th/04_server-sec-rest)
+  * [04_server-sec-jwt](https://github.com/aibe-7th/04_server-sec-jwt)
 
 ## 🚀 시작하기
 
@@ -57,5 +60,6 @@
    git clone https://github.com/aibe-7th/04_server-rest.git
    git clone https://github.com/aibe-7th/04_server-cors.git
    git clone https://github.com/aibe-7th/04_server-sec-rest.git
+   git clone https://github.com/aibe-7th/04_server-sec-jwt.git
    ```
-2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화, CORS 설정, JWT 무상태 인증 및 클라이언트 보안 연동 실습 진행
+2. 교안 자료([40](40), [41](41), [42](42))를 기반으로 환경 설정, 외부 설정, Thymeleaf, 파일 업로드/스토리지, RAG 및 이미지 생성, Spring Security 및 OAuth2 인증/인가, REST API 및 문서화, CORS 설정, JWT 무상태 인증, Refresh Token/Redis 토큰 저장소 및 토큰 회전(RTR) 실습 진행
